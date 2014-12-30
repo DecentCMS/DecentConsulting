@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "type": "page"
+  },
+  "title": "DecentCMS - Home",
+  "body": {"src": "index.md"}
+}

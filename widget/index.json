@@ -1,0 +1,12 @@
+{
+  "default": {
+    "description": "A layer applied to all pages",
+    "rule": "true",
+    "widgets": [
+      {
+        "id": "widget:copyright",
+        "place": "footer:after"
+      }
+    ]
+  }
+}

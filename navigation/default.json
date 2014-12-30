@@ -1,0 +1,13 @@
+[
+  {"name": "home", "title": "Home", "href": "/"},
+  {
+    "name": "projects",
+    "title": "Projects",
+    "href": "/projects",
+    "items": [
+      {"name": "orchard", "title": "Orchard CMS", "href": "http://orchardproject.net"},
+      {"name": "decent", "title": "Decent CMS", "href": "http://decentcms.org"}
+    ]
+  },
+  {"name": "contact", "title": "Contact", "href": "/contact"}
+]
