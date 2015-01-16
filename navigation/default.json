@@ -1,12 +1,14 @@
 [
   {"name": "home", "title": "Home", "href": "/"},
+  {"name": "blog", "title": "Blog", "href": "http://weblogs.asp.net/bleroy"},
   {
     "name": "projects",
     "title": "Projects",
     "href": "/projects",
     "items": [
       {"name": "orchard", "title": "Orchard CMS", "href": "http://orchardproject.net"},
-      {"name": "decent", "title": "Decent CMS", "href": "http://decentcms.org"}
+      {"name": "decent", "title": "Decent CMS", "href": "https://github.com/DecentCMS/DecentCMS"},
+      {"name": "fluentpath", "title": "FluentPath", "href": "https://fluentpath.codeplex.com/"}
     ]
   },
   {"name": "contact", "title": "Contact", "href": "/contact"}
