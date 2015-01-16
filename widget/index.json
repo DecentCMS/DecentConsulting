@@ -6,6 +6,10 @@
       {
         "id": "widget:copyright",
         "place": "footer:after"
+      },
+      {
+        "id": "widget:analytics",
+        "place": "analytics:before"
       }
     ]
   }
