@@ -56,6 +56,13 @@
     "Console": {
       "level": "verbose",
       "handleExceptions": true
+    },
+    "DailyRotateFile": {
+      "level": "error",
+      "handleExceptions": true,
+      "filename": "sites/default/logs/error",
+      "datePattern": ".yyyy-MM-dd.log",
+      "maxsize": 512000
     }
   }
 }
