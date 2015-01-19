@@ -8,7 +8,8 @@
     "items": [
       {"name": "orchard", "title": "Orchard CMS", "href": "http://orchardproject.net"},
       {"name": "decent", "title": "Decent CMS", "href": "https://github.com/DecentCMS/DecentCMS"},
-      {"name": "fluentpath", "title": "FluentPath", "href": "https://fluentpath.codeplex.com/"}
+      {"name": "fluentpath", "title": "FluentPath", "href": "https://fluentpath.codeplex.com/"},
+      {"name": "flasync", "title": "Flasync", "href": "https://github.com/bleroy/flasync"}
     ]
   },
   {"name": "contact", "title": "Contact", "href": "/contact"}
