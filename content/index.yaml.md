@@ -2,7 +2,7 @@ title: Your CMS Expert
 meta:
   type: page
 
--8<------------------------------------------------------------------------------
+-8<-------------------------------------------------------------------------------
 
 Decent Consulting was founded in 2014 by [Bertrand Le Roy][linkedin] to share his
 Content Management System expertise with the community.
