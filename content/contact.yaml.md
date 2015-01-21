@@ -1,4 +1,4 @@
-title: Contact me
+title: Contact
 meta:
   type: page
 
