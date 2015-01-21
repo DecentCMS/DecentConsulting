@@ -7,7 +7,7 @@ meta:
 Decent Consulting was founded in 2014 by [Bertrand Le Roy][linkedin] to share his
 Content Management System expertise with the community.
 
-Do you need?
+Do you need...
 
 * Expert advice on what CMS to pick for your next project?
 * Consulting on [Orchard CMS][orchard] by one of its founders and architects?
