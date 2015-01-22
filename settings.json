@@ -1,70 +1,72 @@
 {
   "name": "Decent Consulting",
   "setup": true,
-  "theme": "decent-theme-default",
-  "features": [
-    "content",
-    "static-route-handler",
-    "content-route-handler",
-    "prevent-trailing-slash",
-    "express",
-    "tokens",
-    "shape",
-    "render-stream",
-    "navigation",
-    "file-resolution",
-    "file-content-store",
-    "file-placement-strategy",
-    "file-navigation-provider",
-    "zone-handler",
-    "template-rendering-strategy",
-    "code-view-engine",
-    "dust-view-engine",
-    "core-parts",
-    "markdown",
-    "default-theme-selector",
-    "widgets",
-    "file-layer-store",
-    "winston-logger",
-    "documentation"
-  ],
-  "types": {
-    "page": {
-      "name": "Page",
-      "description": "A simple page type.",
-      "parts": {
-        "title": {
-          "type": "title"
+  "features": {
+    "content": {
+      "types": {
+        "page": {
+          "name": "Page",
+          "description": "A simple page type.",
+          "parts": {
+            "title": {
+              "type": "title"
+            },
+            "body": {
+              "type": "text"
+            }
+          }
         },
-        "body": {
-          "type": "text"
+        "html-widget": {
+          "name": "HTML Widget",
+          "description": "A simple widget type.",
+          "stereotype": "widget",
+          "parts": {
+            "body": {
+              "type": "text"
+            }
+          }
         }
       }
     },
-    "html-widget": {
-      "name": "HTML Widget",
-      "description": "A simple widget type.",
-      "stereotype": "widget",
-      "parts": {
-        "body": {
-          "type": "text"
-        }
-      }
-    }
-  },
-  "staticFolders": ["css", "js", "img", "fonts"],
-  "mediaFolder": "media",
-  "logging": {
-    "Console": {
-      "level": "verbose",
-      "handleExceptions": true
+    "static-route-handler": {
+      "staticFolders": ["css", "js", "img", "fonts"],
+      "mediaFolder": "media"
     },
-    "DailyRotateFile": {
-      "level": "error",
-      "handleExceptions": true,
-      "filename": "sites/default/logs/error",
-      "datePattern": ".yyyy-MM-dd.log",
-      "maxsize": 512000
-    }
+    "content-route-handler": {},
+    "prevent-trailing-slash": {},
+    "express": {},
+    "tokens": {},
+    "shape": {},
+    "render-stream": {},
+    "navigation": {},
+    "file-resolution": {},
+    "file-content-store": {},
+    "file-placement-strategy": {},
+    "file-navigation-provider": {},
+    "zone-handler": {},
+    "template-rendering-strategy": {},
+    "code-view-engine": {},
+    "dust-view-engine": {},
+    "core-parts": {},
+    "markdown": {},
+    "default-theme-selector": {
+      "theme": "decent-theme-default"
+    },
+    "widgets": {},
+    "file-layer-store": {},
+    "winston-logger": {
+      "Console": {
+        "level": "verbose",
+        "handleExceptions": true
+      },
+      "DailyRotateFile": {
+        "level": "error",
+        "handleExceptions": true,
+        "filename": "sites/default/logs/error",
+        "datePattern": ".yyyy-MM-dd.log",
+        "maxsize": 512000
+      }
+    },
+    "documentation": {}
   }
 }
