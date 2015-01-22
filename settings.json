@@ -6,6 +6,7 @@
     "content",
     "static-route-handler",
     "content-route-handler",
+    "prevent-trailing-slash",
     "express",
     "tokens",
     "shape",
@@ -24,7 +25,8 @@
     "default-theme-selector",
     "widgets",
     "file-layer-store",
-    "winston-logger"
+    "winston-logger",
+    "documentation"
   ],
   "types": {
     "page": {
