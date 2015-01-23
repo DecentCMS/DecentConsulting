@@ -2,4 +2,5 @@ title: Contact
 
 -8<-----------------------------------------------------------
 
-For all enquiries, please send me e-mail at bertrand at gmail.
+For all enquiries, please send me an e-mail at
+bertrand at gmail.
