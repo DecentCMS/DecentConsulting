@@ -1,5 +1,7 @@
 {
   "name": "Decent Consulting",
+  "host": ["decentconsulting.com", "local.decent.com"],
+  "port": "*",
   "setup": true,
   "features": {
     "content": {
@@ -16,8 +18,8 @@
             }
           }
         },
-        "html-widget": {
-          "name": "HTML Widget",
+        "plain-widget": {
+          "name": "Plain Widget",
           "description": "A simple widget type.",
           "stereotype": "widget",
           "parts": {
@@ -66,7 +68,6 @@
         "datePattern": ".yyyy-MM-dd.log",
         "maxsize": 512000
       }
-    },
-    "documentation": {}
+    }
   }
 }
