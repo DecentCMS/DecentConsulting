@@ -68,6 +68,8 @@
         "datePattern": ".yyyy-MM-dd.log",
         "maxsize": 512000
       }
-    }
+    },
+    "query": {},
+    "file-index": {}
   }
 }
