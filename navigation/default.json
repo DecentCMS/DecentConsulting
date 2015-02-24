@@ -7,7 +7,7 @@
     "href": "/projects",
     "items": [
       {"name": "orchard", "title": "Orchard CMS", "href": "http://orchardproject.net"},
-      {"name": "decent", "title": "Decent CMS", "href": "https://github.com/DecentCMS/DecentCMS"},
+      {"name": "decent", "title": "Decent CMS", "href": "http://decentcms.org"},
       {"name": "nwazetcommerce", "title": "Nwazet Commerce", "href": "https://bitbucket.org/bleroy/nwazet.commerce"},
       {"name": "fluentpath", "title": "FluentPath", "href": "https://fluentpath.codeplex.com/"},
       {"name": "flasync", "title": "Flasync", "href": "https://github.com/bleroy/flasync"}
