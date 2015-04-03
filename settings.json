@@ -51,6 +51,7 @@
     "dust-view-engine": {},
     "core-parts": {},
     "markdown": {},
+    "decent-theme-default": {},
     "default-theme-selector": {
       "theme": "decent-theme-default"
     },
