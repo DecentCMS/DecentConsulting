@@ -1,6 +1,7 @@
 {
   "name": "Decent Consulting",
-  "host": ["decentconsulting.com", "bertrandleroy.net", "local.decent.com"],
+  "host": ["decentconsulting.com", "bertrandleroy.net"],
+  "debugHost": ["local.decent.com"],
   "port": "*",
   "setup": true,
   "features": {
@@ -35,6 +36,7 @@
       "mediaFolder": "media"
     },
     "content-route-handler": {},
+    "content-api": {},
     "prevent-trailing-slash": {},
     "express": {},
     "tokens": {},
