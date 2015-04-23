@@ -1,6 +1,6 @@
 {
   "name": "Decent Consulting",
-  "host": ["decentconsulting.com", "bertrandleroy.net"],
+  "host": ["decentconsulting.com"],
   "debugHost": ["local.decent.com"],
   "port": "*",
   "setup": true,
