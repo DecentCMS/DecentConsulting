@@ -67,9 +67,9 @@
       "DailyRotateFile": {
         "level": "error",
         "handleExceptions": true,
-        "filename": "sites/default/logs/error",
-        "datePattern": ".yyyy-MM-dd.log",
-        "maxsize": 512000
+        "filename": "sites/default/logs/error-%DATE%.log",
+        "datePattern": "YYYY-MM-DD",
+        "maxSize": 512000
       }
     },
     "query": {},
